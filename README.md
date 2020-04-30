@@ -1,7 +1,7 @@
 # Go URL Shortener
 
 ## Goals
-1. Accept HTTP connections and return 200/OK 
+1. Accept HTTP connections and return 501/Not Implemented 
 2. Accept JSON containing a URL and parse:
 ```
 { 
