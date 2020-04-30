@@ -1,7 +1,7 @@
 # Go URL Shortener
 
 ## Environment
-To install the Go tools you should be able to run `brew install go`. For more in-depth instructions see (Install the Go tools)[https://golang.org/doc/install#install]
+To install the Go tools you should be able to run `brew install go`. For more in-depth instructions see [Install the Go tools](https://golang.org/doc/install#install)
 
 ## Goals
 1. Accept `HTTP:GET` to "/" and return 501/Not Implemented 
