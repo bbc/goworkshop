@@ -1,8 +1,8 @@
 # Go URL Shortener
 
 ## Goals
-1. Accept HTTP connections and return 501/Not Implemented 
-2. Accept JSON containing a URL and parse:
+1. Accept `HTTP:GET` to "/" and return 501/Not Implemented 
+2. Accept `HTTP:PUT` to "/" containing JSON with a URL and parse:
 ```
 { 
     "URL": "https://www.bbc.co.uk/iplayer" 
