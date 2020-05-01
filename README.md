@@ -17,14 +17,13 @@ To install the Go tools you should be able to run `brew install go`. For more in
     "ShortURL": "http://localhost:8080/1" 
 }
 ```
-4. Avoid generating short URLs for duplicate URLs
-5. Accept a shortened URL and redirect to correct URL
+4. Accept HTTP:GET to "/1" and redirect to correct URL
 
 Stretch goals:
-1. Store key/values in a local JSON database
-2. Count times the URL has been decoded
-3. Delete URL from local database
-4. Make the encoded URL "cryptographically secure"
+1. Count times the URL has been decoded
+2. Delete URL from local database
+3. Store key/values in a local JSON database
+4. Make the encoded URL "cryptographically secure" while still short
 
 ## Running
 
