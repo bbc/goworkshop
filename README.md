@@ -1,5 +1,7 @@
 # Go URL Shortener
 
+This repository is the code to run a [Go](https://golang.org/) workshop. The code is separated into 4 goals with tests which pass when the goals are met. 
+
 ## Environment
 To install the Go tools you should be able to run `brew install go`. For more in-depth instructions see [Install the Go tools](https://golang.org/doc/install#install)
 
